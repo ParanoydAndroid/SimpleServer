@@ -44,7 +44,6 @@ class JSONServer(BaseHTTPRequestHandler):
         
         message['received'] = 'ok'
         
-        # send the message back
         self._set_headers()
         self.wfile.write(json.dumps(message).encode())
         

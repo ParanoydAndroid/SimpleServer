@@ -17,3 +17,4 @@ venv
 local.env
 json.txt
 transformer/
+check/
